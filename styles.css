@@ -1,0 +1,17 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.index-page {
+  height: 100%; /* Makes the body take the full viewport height */
+}
+
+.img1 {
+  width: 100%; /* Image spans the full width of its container */
+  max-width: 100%; /* Prevents the image from overflowing */
+  height: auto; /* Adjusts the height proportionally */
+  object-fit: cover; /* Ensures the image covers the container */
+  display: block; /* Removes any inline spacing */
+}
