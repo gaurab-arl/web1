@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/contact.css">
+    <script src="script.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Gaurab</a>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav>
+            <ul class="menu">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>    
+
+    <div class="background-img"></div>
+    <section class="contact">
+        <div class="content">
+            <h2>CONTACT US</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto officia nostrum recusandae esse assumenda laudantium voluptatum quis laboriosam. Dicta praesentium sunt corporis recusandae vel officiis quod ducimus repellendus quos minima?</p>
+        </div>
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon"><b><i class="fa-solid fa-location-pin"></i></b></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p> Kathmandu, Nepal <br> Kalanki Chok<br></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><b><i class="fa-solid fa-phone"></i></b></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p> 00000000000000000</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><b><i class="fa-solid fa-envelope"></i></b></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p> temporaryemail@gmail.com</p>
+                    </div>
+                </div>
+                <h2 class="txt">Connect with us</h2>
+                <ul class="sci">
+                    <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="contactform">
+                <form> 
+                    <h2>Send Message</h2>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputbox">
+                        <textarea required="required"></textarea>
+                        <span>Type your message...</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
